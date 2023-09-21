@@ -1,57 +1,57 @@
 @font-face { 
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("OpenSans"),
-      url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), 
-      url("../assets/fonts/OpenSans-Light.woff") format("woff"); 
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("OpenSans"),
+    url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), 
+    url("../assets/fonts/OpenSans-Light.woff") format("woff"); 
 }
 @font-face { 
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local("OpenSans"),
-        url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), 
-        url("../assets/fonts/OpenSans-Regular.woff") format("woff"); 
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("OpenSans"),
+    url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), 
+    url("../assets/fonts/OpenSans-Regular.woff") format("woff"); 
 }
 @font-face { 
-    font-family: "OpenSans";
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local("OpenSans"),
-        url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), 
-        url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff"); 
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("OpenSans"),
+    url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), 
+    url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff"); 
 } 
 
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-  }
-  
-  body {
-    font-family: 'OpenSans', sans-serif;
-    color: green;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  img {
-    max-width: 100%;
-    object-fit: cover;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'OpenSans', sans-serif;
+  color: green;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
