@@ -1,3 +1,31 @@
+@font-face { 
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("OpenSans"),
+      url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), 
+      url("../assets/fonts/OpenSans-Light.woff") format("woff"); 
+}
+@font-face { 
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("OpenSans"),
+        url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), 
+        url("../assets/fonts/OpenSans-Regular.woff") format("woff"); 
+}
+@font-face { 
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("OpenSans"),
+        url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), 
+        url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff"); 
+} 
+
 html {
     box-sizing: border-box;
   }
@@ -9,7 +37,7 @@ html {
   }
   
   body {
-    font-family: 'font', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     color: green;
   }
   
