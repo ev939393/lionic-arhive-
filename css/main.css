@@ -78,3 +78,7 @@ ul {
 .header__btn {
   margin-left: 52px;
 }
+
+.hero__content {
+  max-width: 50%;
+}
