@@ -54,6 +54,7 @@ img {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .container {
@@ -69,6 +70,10 @@ ul {
 .header__container {
   display: flex;
   justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
 }
 
 .header__nav-list {
