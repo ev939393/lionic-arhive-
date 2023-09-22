@@ -88,6 +88,18 @@ ul {
   margin-left: 52px;
 }
 
+.hero {
+  padding: 100px;
+}
+
 .hero__content {
   max-width: 50%;
+}
+
+.services__title {
+  text-align: center;
+}
+
+.services__descr {
+  text-align: center;
 }
