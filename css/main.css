@@ -62,6 +62,10 @@ ul {
   max-width: 1140px;
 }
 
+.header {
+  padding: 30px 0;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;
