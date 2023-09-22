@@ -62,3 +62,19 @@ ul {
   max-width: 1140px;
 }
 
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item:not(:last-child) {
+  margin-right: 52px;
+}
+
+.header__btn {
+  margin-left: 52px;
+}
