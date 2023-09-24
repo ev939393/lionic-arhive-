@@ -125,6 +125,8 @@ ul {
   flex-direction: column;
   align-items: center;
   padding: 60px 20px;
+  max-width: 270px;
+  overflow: hidden;
   text-align: center;
 }
 
@@ -136,6 +138,8 @@ ul {
 
 .articles__list-item {
   display: flex;
+  max-width: 570px;
+  overflow: hidden;
 }
 
 .articles__list-content {
