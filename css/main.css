@@ -1,30 +1,34 @@
-@font-face { 
+@font-face {
   font-family: "OpenSans";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: local("OpenSans"),
-    url("../assets/fonts/OpenSans-Light.woff2") format("woff2"), 
-    url("../assets/fonts/OpenSans-Light.woff") format("woff"); 
+    url("../assets/fonts/OpenSans-Light.woff2") format("woff2"),
+    url("../assets/fonts/OpenSans-Light.woff") format("woff");
 }
-@font-face { 
+@font-face {
   font-family: "OpenSans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local("OpenSans"),
-    url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"), 
-    url("../assets/fonts/OpenSans-Regular.woff") format("woff"); 
+    url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../assets/fonts/OpenSans-Regular.woff") format("woff");
 }
-@font-face { 
+@font-face {
   font-family: "OpenSans";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: local("OpenSans"),
-    url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), 
-    url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff"); 
-} 
+    url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/OpenSans-SemiBold.woff2") format("woff");
+}
+
+:root {
+  --color-mercury: #e4e4e4;
+}
 
 html {
   box-sizing: border-box;
@@ -96,10 +100,84 @@ ul {
   max-width: 50%;
 }
 
+.services {
+  padding-bottom: 160px;
+  border-bottom: 1px solid var(--color-mercury);
+}
+
 .services__title {
   text-align: center;
 }
 
 .services__descr {
+  margin-bottom: 54px;
   text-align: center;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.services__list-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.articles__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.articles__list-item {
+  display: flex;
+}
+
+.articles__list-content {
+  padding: 23px 30px 38px;
+}
+
+.clients__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.clients__list-bottom {
+  display: flex;
+}
+
+.contacts__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left {
+  display: flex;
+  align-items: center;
+}
+
+.footer__rigth {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav-list {
+  display: flex;
+}
+
+.footer__list-social {
+  display: flex;
 }
