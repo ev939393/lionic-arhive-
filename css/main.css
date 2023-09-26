@@ -145,13 +145,26 @@ ul {
 }
 
 .hero__btn {
+  display: block;
+  margin-bottom: 14px;
   padding: 19px 58px;
   border-radius: 3px;
+  max-width: 250px;
   font-size: 15px;
   font-weight: 600;
   color: var(--color-white);
   background: var(--color-astral);
   text-transform: uppercase;
+}
+
+.hero__secure {
+  padding-left: 27px;
+  color: var(--color-boulder);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 155%
+  text-transform: uppercase;
+  background: url('../assets/svg/contacts-1.svg')  left center / 14px 17px no-repeat
 }
 
 .services__title {
