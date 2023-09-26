@@ -29,6 +29,7 @@
 :root {
   --color-astral: #3172b9;
   --color-boulder: #787878;
+  --color-cod-gray: #1c1c1c;
   --color-mercury: #e4e4e4;
   --color-white: #fff;
 }
@@ -69,6 +70,23 @@ ul {
   margin: 0 auto;
   padding: 15px 0;
   max-width: 1140px;
+}
+
+.section-title {
+  margin-bottom: 22px;
+  padding: 87px 0 0;
+  color: var(--color-cod-gray);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.section-descr {
+  margin: 0;
+  color: var(--color-boulder);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
