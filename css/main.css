@@ -28,6 +28,7 @@
 
 :root {
   --color-astral: #3172b9;
+  --color-boulder: #787878;
   --color-mercury: #e4e4e4;
   --color-white: #fff;
 }
@@ -100,11 +101,12 @@ ul {
 .header__btn {
   margin-left: 52px;
   padding: 15px 35px;
-  width: 150px;
+  border-radius: 3px;
   font-size: 15px;
   font-weight: 600;
   color: var(--color-white);
   background: var(--color-astral);
+  text-transform: uppercase;
 }
 
 .hero {
@@ -122,9 +124,34 @@ ul {
   max-width: 50%;
 }
 
+.hero__title {
+  margin: 0 0 26px
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 130%;
+}
+
 .services {
   padding-bottom: 160px;
   border-bottom: 1px solid var(--color-mercury);
+}
+
+.hero__descr {
+  margin: 0 0 34px;
+  color: var(--color-boulder);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.hero__btn {
+  padding: 19px 58px;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-white);
+  background: var(--color-astral);
+  text-transform: uppercase;
 }
 
 .services__title {
