@@ -110,7 +110,7 @@ ul {
 }
 
 .hero {
-  padding: 100px;
+  padding: 100px 0;
   background-image: url("../assets/img/hero-bg@1x.jpg");
   @media (min-resolution: 2dppx) {
     background-image: url("../assets/img/hero-bg@2x.jpg");
