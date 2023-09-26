@@ -27,7 +27,9 @@
 }
 
 :root {
+  --color-astral: #3172b9;
   --color-mercury: #e4e4e4;
+  --color-white: #fff;
 }
 
 html {
@@ -43,6 +45,7 @@ html {
 
 body {
   font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -88,8 +91,19 @@ ul {
   margin-right: 52px;
 }
 
+.header__nav-link {
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .header__btn {
   margin-left: 52px;
+  padding: 35px 15px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-white);
+  background: var(--color-astral);
 }
 
 .hero {
