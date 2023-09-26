@@ -85,6 +85,7 @@ ul {
 
 .header__nav-list {
   display: flex;
+  align-items: center;
 }
 
 .header__nav-item:not(:last-child) {
@@ -98,7 +99,7 @@ ul {
 
 .header__btn {
   margin-left: 52px;
-  padding: 35px 15px;
+  padding: 15px 35px;
   width: 150px;
   font-size: 15px;
   font-weight: 600;
@@ -108,6 +109,13 @@ ul {
 
 .hero {
   padding: 100px;
+  background-image: url("../assets/img/hero-bg@1x.jpg");
+  @media (min-resolution: 2dppx) {
+    background-image: url("../assets/img/hero-bg@2x.jpg");
+  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero__content {
