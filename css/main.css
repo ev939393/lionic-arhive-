@@ -125,7 +125,7 @@ ul {
 }
 
 .hero__title {
-  margin: 0 0 26px
+  margin: 0 0 26px;
   font-size: 40px;
   font-weight: 300;
   line-height: 130%;
@@ -142,6 +142,12 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 155%;
+}
+
+.hero__btn-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero__btn {
@@ -162,9 +168,9 @@ ul {
   color: var(--color-boulder);
   font-size: 11px;
   font-weight: 400;
-  line-height: 155%
+  line-height: 155%;
   text-transform: uppercase;
-  background: url('../assets/svg/contacts-1.svg')  left center / 14px 17px no-repeat
+  background: url('../assets/svg/secure.svg')  left center / contain no-repeat
 }
 
 .services__title {
